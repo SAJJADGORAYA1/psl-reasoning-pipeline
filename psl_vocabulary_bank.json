@@ -1,111 +1,5 @@
 [
   {
-    "word": "active",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "circular",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "circular",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      }
-    ],
-    "video_file": "active.mp4"
-  },
-  {
     "word": "account",
     "description": [
       {
@@ -116,7 +10,281 @@
         "location": "at-sides",
         "movement": "stationary",
         "dominant_hand": "N/A",
-        "facial_expression": "neutral"
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          },
+          "hand_joints": {
+            "left": {
+              "thumb": [
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.21,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.14,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.15,
+                0.8,
+                0.0
+              ]
+            },
+            "right": {
+              "thumb": [
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.79,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.86,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.85,
+                0.8,
+                0.0
+              ]
+            }
+          },
+          "facial_analysis": {
+            "eyebrow_height": 0.2,
+            "eye_closure": [
+              0.05,
+              0.05
+            ],
+            "mouth_shape": "neutral",
+            "jaw_tension": 0.1,
+            "cheek_definition": "smooth"
+          }
+        }
       },
       {
         "segment": 2,
@@ -126,7 +294,281 @@
         "location": "at-sides",
         "movement": "stationary",
         "dominant_hand": "N/A",
-        "facial_expression": "neutral"
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          },
+          "hand_joints": {
+            "left": {
+              "thumb": [
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.21,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.14,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.15,
+                0.8,
+                0.0
+              ]
+            },
+            "right": {
+              "thumb": [
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.79,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.86,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.85,
+                0.8,
+                0.0
+              ]
+            }
+          },
+          "facial_analysis": {
+            "eyebrow_height": 0.2,
+            "eye_closure": [
+              0.05,
+              0.05
+            ],
+            "mouth_shape": "neutral",
+            "jaw_tension": 0.1,
+            "cheek_definition": "smooth"
+          }
+        }
       },
       {
         "segment": 3,
@@ -136,27 +578,849 @@
         "location": "at-sides",
         "movement": "stationary",
         "dominant_hand": "N/A",
-        "facial_expression": "neutral"
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          },
+          "hand_joints": {
+            "left": {
+              "thumb": [
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.21,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.14,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.15,
+                0.8,
+                0.0
+              ]
+            },
+            "right": {
+              "thumb": [
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.79,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.86,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.85,
+                0.8,
+                0.0
+              ]
+            }
+          },
+          "facial_analysis": {
+            "eyebrow_height": 0.2,
+            "eye_closure": [
+              0.05,
+              0.05
+            ],
+            "mouth_shape": "neutral",
+            "jaw_tension": 0.1,
+            "cheek_definition": "smooth"
+          }
+        }
       },
       {
         "segment": 4,
         "start": 0.3,
         "end": 0.4,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
+        "hand_shape": "open/relaxed",
+        "location": "at-sides",
+        "movement": "stationary",
+        "dominant_hand": "N/A",
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          },
+          "hand_joints": {
+            "left": {
+              "thumb": [
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.21,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.14,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.15,
+                0.8,
+                0.0
+              ]
+            },
+            "right": {
+              "thumb": [
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.79,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.86,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.85,
+                0.8,
+                0.0
+              ]
+            }
+          },
+          "facial_analysis": {
+            "eyebrow_height": 0.2,
+            "eye_closure": [
+              0.05,
+              0.05
+            ],
+            "mouth_shape": "neutral",
+            "jaw_tension": 0.1,
+            "cheek_definition": "smooth"
+          }
+        }
       },
       {
         "segment": 5,
         "start": 0.4,
         "end": 0.5,
-        "hand_shape": "fist",
-        "location": "below-chest",
+        "hand_shape": "open/relaxed",
+        "location": "at-sides",
         "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
+        "dominant_hand": "N/A",
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          },
+          "hand_joints": {
+            "left": {
+              "thumb": [
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.21,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.14,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.15,
+                0.8,
+                0.0
+              ]
+            },
+            "right": {
+              "thumb": [
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.79,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.86,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.85,
+                0.8,
+                0.0
+              ]
+            }
+          },
+          "facial_analysis": {
+            "eyebrow_height": 0.2,
+            "eye_closure": [
+              0.05,
+              0.05
+            ],
+            "mouth_shape": "neutral",
+            "jaw_tension": 0.1,
+            "cheek_definition": "smooth"
+          }
+        }
       },
       {
         "segment": 6,
@@ -166,7 +1430,281 @@
         "location": "at-sides",
         "movement": "stationary",
         "dominant_hand": "N/A",
-        "facial_expression": "neutral"
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          },
+          "hand_joints": {
+            "left": {
+              "thumb": [
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.21,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.14,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.15,
+                0.8,
+                0.0
+              ]
+            },
+            "right": {
+              "thumb": [
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.79,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.86,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.85,
+                0.8,
+                0.0
+              ]
+            }
+          },
+          "facial_analysis": {
+            "eyebrow_height": 0.2,
+            "eye_closure": [
+              0.05,
+              0.05
+            ],
+            "mouth_shape": "neutral",
+            "jaw_tension": 0.1,
+            "cheek_definition": "smooth"
+          }
+        }
       },
       {
         "segment": 7,
@@ -176,39 +1714,606 @@
         "location": "at-sides",
         "movement": "stationary",
         "dominant_hand": "N/A",
-        "facial_expression": "neutral"
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          },
+          "hand_joints": {
+            "left": {
+              "thumb": [
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.21,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.14,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.15,
+                0.8,
+                0.0
+              ]
+            },
+            "right": {
+              "thumb": [
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.79,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.86,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.85,
+                0.8,
+                0.0
+              ]
+            }
+          },
+          "facial_analysis": {
+            "eyebrow_height": 0.2,
+            "eye_closure": [
+              0.05,
+              0.05
+            ],
+            "mouth_shape": "neutral",
+            "jaw_tension": 0.1,
+            "cheek_definition": "smooth"
+          }
+        }
       },
       {
         "segment": 8,
         "start": 0.7,
         "end": 0.8,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
+        "hand_shape": "open/relaxed",
+        "location": "at-sides",
+        "movement": "stationary",
+        "dominant_hand": "N/A",
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          },
+          "hand_joints": {
+            "left": {
+              "thumb": [
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.21,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.2,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.19,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.18,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.14,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.15,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.16,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.17,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.15,
+                0.8,
+                0.0
+              ]
+            },
+            "right": {
+              "thumb": [
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ],
+                [
+                  0.79,
+                  0.75,
+                  0.0
+                ]
+              ],
+              "index": [
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ],
+                [
+                  0.8,
+                  0.76,
+                  0.0
+                ]
+              ],
+              "middle": [
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ],
+                [
+                  0.81,
+                  0.77,
+                  0.0
+                ]
+              ],
+              "ring": [
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ],
+                [
+                  0.82,
+                  0.78,
+                  0.0
+                ]
+              ],
+              "little": [
+                [
+                  0.86,
+                  0.82,
+                  0.0
+                ],
+                [
+                  0.85,
+                  0.81,
+                  0.0
+                ],
+                [
+                  0.84,
+                  0.8,
+                  0.0
+                ],
+                [
+                  0.83,
+                  0.79,
+                  0.0
+                ]
+              ],
+              "palm_base": [
+                0.85,
+                0.8,
+                0.0
+              ]
+            }
+          },
+          "facial_analysis": {
+            "eyebrow_height": 0.2,
+            "eye_closure": [
+              0.05,
+              0.05
+            ],
+            "mouth_shape": "neutral",
+            "jaw_tension": 0.1,
+            "cheek_definition": "smooth"
+          }
+        }
       },
       {
         "segment": 9,
         "start": 0.8,
         "end": 0.9,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
         "hand_shape": "open/relaxed",
         "location": "at-sides",
         "movement": "stationary",
         "dominant_hand": "N/A",
-        "facial_expression": "neutral"
+        "facial_expression": "neutral",
+        "detailed_observations": {
+          "head_neck": {
+            "nose_position": [
+              0.5,
+              0.5,
+              0.0
+            ],
+            "eye_aperture": 0.9,
+            "ear_visibility": false
+          },
+          "upper_body": {
+            "shoulder_angle": 180.0,
+            "elbow_flexion": [
+              180.0,
+              180.0
+            ],
+            "wrist_position": [
+              [
+                0.2,
+                0.8
+              ],
+              [
+                0.8,
+                0.8
+              ]
+            ]
+          }
+        }
       }
     ],
-    "video_file": "account.mp4"
+    "video_file": "account.mp4",
+    "processing_time": 56.1
   }
 ]
