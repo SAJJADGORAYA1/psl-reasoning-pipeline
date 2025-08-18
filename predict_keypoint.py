@@ -47,7 +47,7 @@ def describe_sign_from_video(video_path: Path) -> list:
     print(f"📹 Analyzing video: {video_path.name}")
     
     if not API_KEY or "YOUR_GEMINI_API_KEY" in API_KEY:
-        print("❌ ERROR: Missing valid Gemini API key")
+        print(" ERROR: Missing valid Gemini API key")
         return None
 
     try:
@@ -101,7 +101,7 @@ def describe_sign_from_video(video_path: Path) -> list:
                         json_str = json_str.rstrip() + ']'
                     return json.loads(json_str)
                 else:
-                    print(f"🚨 No JSON found in response: {content[:200]}...")
+                    print(f"No JSON found in response: {content[:200]}...")
                     return None
                 
             except requests.exceptions.HTTPError as e:
@@ -110,24 +110,24 @@ def describe_sign_from_video(video_path: Path) -> list:
                     # Exponential backoff with jitter
                     jitter = random.uniform(0.5, 1.5)
                     sleep_time = min(delay * jitter, MAX_DELAY)
-                    print(f"⚠️ Service Unavailable (503). Retry #{attempt+1} in {sleep_time:.1f}s")
+                    print(f" Service Unavailable (503). Retry #{attempt+1} in {sleep_time:.1f}s")
                     time.sleep(sleep_time)
                     delay *= 2
                     continue
                 else:
-                    print(f"🚨 HTTP Error {status_code}: {str(e)}")
+                    print(f" HTTP Error {status_code}: {str(e)}")
                     return None
             except json.JSONDecodeError as e:
-                print(f"🚨 JSON Decode Error: {str(e)}")
+                print(f" JSON Decode Error: {str(e)}")
                 return None
             except Exception as e:
-                print(f"🚨 Unexpected Error: {type(e).__name__} - {str(e)}")
+                print(f" Unexpected Error: {type(e).__name__} - {str(e)}")
                 return None
 
         return None  # All retries failed
         
     except Exception as e:
-        print(f"🚨 Processing Error: {str(e)[:200]}")
+        print(f" Processing Error: {str(e)[:200]}")
         return None
 
 def categorical_to_vector(categories: dict) -> list:
@@ -162,14 +162,14 @@ def predict_sign(test_video_path: Path, vocab_data: list):
     # Generate new description
     test_segments = describe_sign_from_video(test_video_path)
     if not test_segments or len(test_segments) != 10:
-        print(f"❌ Invalid segments generated: {len(test_segments) if test_segments else 0} segments")
+        print(f" Invalid segments generated: {len(test_segments) if test_segments else 0} segments")
         return None
     
     # Convert to feature vector
     test_vector = segments_to_feature_vector(test_segments)
     
     # Semantic comparison
-    print("🔍 Comparing with vocabulary bank...")
+    print(" Comparing with vocabulary bank...")
     
     # Prepare vocabulary vectors
     vocab_vectors = []
@@ -182,7 +182,7 @@ def predict_sign(test_video_path: Path, vocab_data: list):
             valid_entries.append(entry)
     
     if not vocab_vectors:
-        print("❌ No valid vocabulary entries found")
+        print(" No valid vocabulary entries found")
         return None
     
     # Convert to numpy arrays for efficient computation
@@ -214,15 +214,15 @@ def main():
         
     test_video_path = Path(sys.argv[1])
     if not test_video_path.exists():
-        print(f"❌ Test video not found: {test_video_path}")
+        print(f" Test video not found: {test_video_path}")
         return
 
     try:
         with open(VOCAB_BANK, "r") as f:
             vocab_data = json.load(f)
-        print(f"📚 Loaded vocabulary bank with {len(vocab_data)} entries.")
+        print(f" Loaded vocabulary bank with {len(vocab_data)} entries.")
     except Exception as e:
-        print(f"❌ Error loading or parsing '{VOCAB_BANK}': {e}")
+        print(f" Error loading or parsing '{VOCAB_BANK}': {e}")
         return
 
     start_time = time.time()
@@ -230,26 +230,26 @@ def main():
     
     if result:
         print("\n" + "="*50)
-        print("✅ PREDICTION RESULT")
+        print(" PREDICTION RESULT")
         print(f"Predicted Word:     {result.get('predicted_word', 'N/A')}")
         print(f"Confidence Score:   {result.get('confidence_score', 'N/A')}")
         print(f"Input Video:        {result.get('input_video', 'N/A')}")
         
         # Show top 3 matches
-        print("\n🏆 Top Matches:")
+        print("\n Top Matches:")
         matches = sorted(result['all_matches'], key=lambda x: float(x['similarity']), reverse=True)[:3]
         for i, match in enumerate(matches):
             print(f"{i+1}. {match['word']} (similarity: {match['similarity']})")
             
         print("="*50)
-        print(f"\n⏱️ Total time: {time.time() - start_time:.2f} seconds")
+        print(f"\n Total time: {time.time() - start_time:.2f} seconds")
 
         output_file = f"prediction_{test_video_path.stem}.json"
         with open(output_file, "w") as f:
             json.dump(result, f, indent=4)
-        print(f"💾 Saved full results to '{output_file}'")
+        print(f" Saved full results to '{output_file}'")
     else:
-        print("\n❌ Prediction failed.")
+        print("\n Prediction failed.")
 
 if __name__ == "__main__":
     main()

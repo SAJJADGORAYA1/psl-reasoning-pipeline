@@ -163,7 +163,7 @@ def predict_sign(segment_path: Path, vocab_data: list):
     test_features = extract_motion_features(segment_path)
     
     if "error" in test_features:
-        print(f"   ⚠️ Feature error: {test_features['error']}")
+        print(f"   Feature error: {test_features['error']}")
         return None
     
     # Find best match in vocabulary
@@ -204,17 +204,17 @@ def predict_sign(segment_path: Path, vocab_data: list):
 def predict_sentence(test_video_path: Path, vocab_data: list):
     """Predict sentence with motion-based segmentation"""
     try:
-        print(f"\n🔍 Starting sentence prediction: {test_video_path.name}")
+        print(f"\n Starting sentence prediction: {test_video_path.name}")
         segments, fps = fixed_interval_segmentation(test_video_path, segment_length=1.5)
         
         if not segments:
-            print("❌ No signs detected in video")
+            print(" No signs detected in video")
             return None
         
         predicted_words = []
         
         for i, seg in enumerate(segments):
-            print(f"\n⏱️ Processing sign {i+1}: "
+            print(f"\n Processing sign {i+1}: "
                   f"{seg['start_time']:.1f}s to {seg['end_time']:.1f}s "
                   f"({seg['duration']:.2f}s)")
             
@@ -227,7 +227,7 @@ def predict_sentence(test_video_path: Path, vocab_data: list):
             )
             
             if not seg_video or not seg_video.exists():
-                print("   ❌ Segment extraction failed")
+                print("    Segment extraction failed")
                 predicted_words.append("[UNKNOWN]")
                 continue
                 
@@ -239,20 +239,20 @@ def predict_sentence(test_video_path: Path, vocab_data: list):
                 confidence = result['confidence_score']
                 word = result['predicted_word']
                 
-                print(f"   ➡️ Predicted: '{word}' (Confidence: {confidence:.2f})")
+                print(f"    Predicted: '{word}' (Confidence: {confidence:.2f})")
                 
                 if confidence >= CONFIDENCE_THRESHOLD:
                     predicted_words.append(word)
                 else:
                     predicted_words.append(f"[{word}?]")  # Mark low confidence
             else:
-                print("   ❌ Prediction failed")
+                print("    Prediction failed")
                 predicted_words.append("[UNKNOWN]")
         
         return " ".join(predicted_words)
     
     except Exception as e:
-        print(f"🚨 Prediction failed: {str(e)}")
+        print(f" Prediction failed: {str(e)}")
         import traceback
         traceback.print_exc()
         return None
@@ -263,13 +263,13 @@ def build_vocabulary(video_dir: Path):
     vocab = []
     
     if not video_dir.exists():
-        print(f"❌ Directory not found: {video_dir}")
+        print(f" Directory not found: {video_dir}")
         return None
     
     video_files = list(video_dir.glob("*.mp4")) + list(video_dir.glob("*.avi"))
     
     if not video_files:
-        print("❌ No video files found")
+        print(" No video files found")
         return None
     
     for video_file in video_files:
@@ -280,7 +280,7 @@ def build_vocabulary(video_dir: Path):
         features = extract_motion_features(video_file)
         
         if "error" in features:
-            print(f"  ⚠️ Skipped - {features['error']}")
+            print(f"   Skipped - {features['error']}")
             continue
             
         vocab.append({
@@ -295,7 +295,7 @@ def build_vocabulary(video_dir: Path):
     with open(VOCAB_BANK, "w") as f:
         json.dump(vocab, f, indent=2)
     
-    print(f"✅ Vocabulary built with {len(vocab)} entries")
+    print(f" Vocabulary built with {len(vocab)} entries")
     return vocab
 
 def load_vocabulary():
@@ -303,13 +303,13 @@ def load_vocabulary():
     try:
         with open(VOCAB_BANK, "r") as f:
             vocab_data = json.load(f)
-        print(f"📚 Loaded vocabulary bank with {len(vocab_data)} entries")
+        print(f" Loaded vocabulary bank with {len(vocab_data)} entries")
         return vocab_data
     except FileNotFoundError:
-        print("❌ Vocabulary bank not found. Please build it first.")
+        print(" Vocabulary bank not found. Please build it first.")
         return None
     except Exception as e:
-        print(f"❌ Error loading vocabulary: {str(e)}")
+        print(f" Error loading vocabulary: {str(e)}")
         return None
 
 def main():
@@ -336,7 +336,7 @@ def main():
             
         test_video_path = Path(sys.argv[2])
         if not test_video_path.exists():
-            print(f"❌ Video not found: {test_video_path}")
+            print(f" Video not found: {test_video_path}")
             return
         
         vocab_data = load_vocabulary()
@@ -348,9 +348,9 @@ def main():
         
         if sentence:
             print("\n" + "="*50)
-            print(f"✅ PREDICTED SENTENCE: {sentence}")
+            print(f" PREDICTED SENTENCE: {sentence}")
             print("="*50)
-            print(f"⏱️ Total processing time: {time.time() - start_time:.2f}s")
+            print(f" Total processing time: {time.time() - start_time:.2f}s")
             
             # Save results
             result = {
@@ -361,12 +361,12 @@ def main():
             output_file = f"sentence_result_{test_video_path.stem}.json"
             with open(output_file, "w") as f:
                 json.dump(result, f, indent=2)
-            print(f"💾 Saved results to '{output_file}'")
+            print(f"Saved results to '{output_file}'")
         else:
-            print("\n❌ Failed to predict sentence")
+            print("\n Failed to predict sentence")
             
     else:
-        print(f"❌ Unknown command: {command}")
+        print(f" Unknown command: {command}")
 
 if __name__ == "__main__":
     main()

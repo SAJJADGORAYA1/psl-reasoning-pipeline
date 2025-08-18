@@ -117,17 +117,17 @@ def describe_sign(video_path: Path) -> list:
                 # Exponential backoff with jitter
                 jitter = random.uniform(0.5, 1.5)
                 sleep_time = min(delay * jitter, MAX_DELAY)
-                print(f"⚠️ Model overloaded. Retry #{attempt+1} in {sleep_time:.1f}s")
+                print(f"Model overloaded. Retry #{attempt+1} in {sleep_time:.1f}s")
                 time.sleep(sleep_time)
                 delay *= 2  # Double the delay for next retry
                 continue
             else:
-                print(f"🚨 Permanent API Error: {str(e)}")
+                print(f" Permanent API Error: {str(e)}")
                 if hasattr(e, 'response') and e.response.text:
                     print(f"Response: {e.response.text}")
                 return None
         except Exception as e:
-            print(f"🚨 Unexpected Error: {str(e)}")
+            print(f" Unexpected Error: {str(e)}")
             return None
 
     return None  # All retries failed
@@ -137,7 +137,7 @@ def generate_vocabulary():
     video_dir = Path(VIDEO_DIR)
 
     if not video_dir.exists():
-        print(f"❌ Directory not found: {video_dir}")
+        print(f" Directory not found: {video_dir}")
         return
 
     # Process video files
@@ -147,7 +147,7 @@ def generate_vocabulary():
             continue
 
         word = video_path.stem
-        print(f"\n🔍 Processing ({i+1}/{len(video_files)}): {word}")
+        print(f"\n Processing ({i+1}/{len(video_files)}): {word}")
 
         description = describe_sign(video_path)
         if description:
@@ -156,9 +156,9 @@ def generate_vocabulary():
                 "description": description,
                 "video_file": video_path.name
             })
-            print(f"✅ Success: Segments: {len(description)}")
+            print(f"Success: Segments: {len(description)}")
         else:
-            print(f"❌ Failed to process {word} after {MAX_RETRIES} attempts")
+            print(f" Failed to process {word} after {MAX_RETRIES} attempts")
 
         time.sleep(2)  # Increased delay between videos
 
@@ -166,9 +166,9 @@ def generate_vocabulary():
     if vocabulary:
         with open(OUTPUT_JSON, "w") as f:
             json.dump(vocabulary, f, indent=2)
-        print(f"\n🎉 Success! Saved {len(vocabulary)} sign descriptions to {OUTPUT_JSON}")
+        print(f"\n Success! Saved {len(vocabulary)} sign descriptions to {OUTPUT_JSON}")
     else:
-        print("\n❌ No valid sign descriptions generated")
+        print("\n No valid sign descriptions generated")
 
 if __name__ == "__main__":
     generate_vocabulary()

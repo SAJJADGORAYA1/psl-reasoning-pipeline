@@ -68,7 +68,7 @@ def describe_sign_from_video(video_path: Path) -> list:
     print(f"📹 Analyzing video: {video_path.name}")
     
     if not API_KEY or "YOUR_GEMINI_API_KEY" in API_KEY:
-        print("❌ ERROR: Missing valid Gemini API key")
+        print(" ERROR: Missing valid Gemini API key")
         return None
 
     try:
@@ -114,7 +114,7 @@ def describe_sign_from_video(video_path: Path) -> list:
         return json.loads(content)
         
     except Exception as e:
-        print(f"🚨 API Error: {str(e)[:200]}")
+        print(f" API Error: {str(e)[:200]}")
         if 'response' in locals() and response.status_code != 200:
             print(f"Response: {response.text[:300]}")
         return None
@@ -142,7 +142,7 @@ def predict_sign(test_video_path: Path, vocab_data: list):
     test_description = segments_to_text(test_segments)
     
     # Semantic comparison
-    print("🔍 Comparing with vocabulary bank...")
+    print(" Comparing with vocabulary bank...")
     model = SentenceTransformer(EMBEDDING_MODEL)
     
     # Prepare vocabulary descriptions
@@ -179,15 +179,15 @@ def main():
         
     test_video_path = Path(sys.argv[1])
     if not test_video_path.exists():
-        print(f"❌ Test video not found: {test_video_path}")
+        print(f" Test video not found: {test_video_path}")
         return
 
     try:
         with open(VOCAB_BANK, "r") as f:
             vocab_data = json.load(f)
-        print(f"📚 Loaded vocabulary bank with {len(vocab_data)} entries.")
+        print(f" Loaded vocabulary bank with {len(vocab_data)} entries.")
     except Exception as e:
-        print(f"❌ Error loading or parsing '{VOCAB_BANK}': {e}")
+        print(f" Error loading or parsing '{VOCAB_BANK}': {e}")
         return
 
     start_time = time.time()
@@ -195,19 +195,19 @@ def main():
     
     if result:
         print("\n" + "="*50)
-        print("✅ PREDICTION RESULT")
+        print(" PREDICTION RESULT")
         print(f"Predicted Word:     {result.get('predicted_word', 'N/A')}")
         print(f"Confidence Score:   {result.get('confidence_score', 'N/A')}")
         print(f"Input Video:        {result.get('input_video', 'N/A')}")
         print("="*50)
-        print(f"\n⏱️ Total time: {time.time() - start_time:.2f} seconds")
+        print(f"\n Total time: {time.time() - start_time:.2f} seconds")
 
         output_file = f"prediction_{test_video_path.stem}.json"
         with open(output_file, "w") as f:
             json.dump(result, f, indent=4)
-        print(f"💾 Saved full results to '{output_file}'")
+        print(f"Saved full results to '{output_file}'")
     else:
-        print("\n❌ Prediction failed.")
+        print("\n Prediction failed.")
 
 if __name__ == "__main__":
     main()

@@ -1,5408 +1,870 @@
 [
   {
     "word": "toilet",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: open-close, repeated, toward-body",
+      "finger_motion": "both: extension, aperture",
+      "movement_summary": "Both hands open and close repeatedly in front of the body.",
+      "overall_description": "The sign involves both hands opening and closing repeatedly. The hands move in a coordinated manner, with the fingers extending and retracting. The sign is performed in the neutral space in front of the body."
+    },
     "video_file": "toilet.mp4"
   },
   {
     "word": "necklace",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "chest",
+      "path_family": "none",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: toward-body, static",
+      "finger_motion": "right: static, aperture",
+      "movement_summary": "Right hand moves forward and touches the chest, repeated.",
+      "overall_description": "The right hand moves forward and touches the chest. This action is repeated twice. The hand maintains an open aperture."
+    },
     "video_file": "necklace.mp4"
   },
   {
     "word": "family (2)",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "upward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "upward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: up, toward-body, repeated",
+      "finger_motion": "both: static",
+      "movement_summary": "Hands move up and forward, palms up, repeated.",
+      "overall_description": "The signer holds both hands in front of them, palms down. The hands then move upward and forward, palms up, and then return to the starting position. This action is repeated."
+    },
     "video_file": "family (2).mp4"
   },
   {
     "word": "bank",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "left",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "left",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "left",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "left",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "support-contact",
+      "contact_presence": "hand-hand",
+      "body_region_primary": "neutral-front",
+      "path_family": "none",
+      "arm_motion": "left: static; right: static",
+      "hand_motion": "left: static; right: static",
+      "finger_motion": "left: static, fingers extended; right: thumb extended, fingers flexed",
+      "movement_summary": "Left hand open palm supports right hand with thumb up",
+      "overall_description": "The left hand is held in front of the body with the palm up. The right hand is held above the left palm with the thumb extended upward, and the fingers flexed. This action is repeated."
+    },
     "video_file": "bank.mp4"
   },
   {
     "word": "bone",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-hand",
+      "body_region_primary": "neutral-front",
+      "path_family": "none",
+      "arm_motion": "right: static",
+      "hand_motion": "right: static, fingers interlock with left hand",
+      "finger_motion": "right: fingers extended, aperture small",
+      "movement_summary": "Right fingers interlock with left hand, repeated.",
+      "overall_description": "The right hand fingers interlock with the fingers of the left hand. This action is repeated once. The hands are in front of the body."
+    },
     "video_file": "bone.mp4"
   },
   {
     "word": "Windows",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-hand",
+      "body_region_primary": "chest",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: inward, open-close, arc",
+      "finger_motion": "both: repeated extension, repeated aperture",
+      "movement_summary": "Both hands open and close in front of the chest.",
+      "overall_description": "Both hands start clasped together in front of the chest. The hands then open outwards, fingers extending, before returning to the starting position. This action is repeated twice."
+    },
     "video_file": "Windows.mp4"
   },
   {
     "word": "active",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "circular",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "circular",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "circular",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: open-close, repeated, parallel",
+      "finger_motion": "both: repeated, extension, aperture",
+      "movement_summary": "Both hands open and close repeatedly in front of body",
+      "overall_description": "Both hands start in a fist and repeatedly open and close in front of the body. The hands move forward slightly as they open and close."
+    },
     "video_file": "active.mp4"
   },
   {
     "word": "wash (face)",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: open-close, repeated, toward-body",
+      "finger_motion": "both: repeated extension, aperture",
+      "movement_summary": "Both hands open and close repeatedly in front of body",
+      "overall_description": "The sign is performed with both hands. The hands repeatedly open and close in front of the body, with the palms facing each other."
+    },
     "video_file": "wash (face).mp4"
   },
   {
     "word": "ear",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "none",
+      "arm_motion": "right: slight-drift, toward-body",
+      "hand_motion": "right: static, hand toward ear",
+      "finger_motion": "right: fingers extended, slight opposition",
+      "movement_summary": "Right hand touches ear, repeated.",
+      "overall_description": "The right hand touches the right ear. The fingers are extended and the hand moves slightly toward the ear, then returns to the starting position. This action is repeated twice."
+    },
     "video_file": "ear.mp4"
   },
   {
     "word": "door frame",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, up",
+      "hand_motion": "both: straight, inward, open-close",
+      "finger_motion": "both: extended, opposition",
+      "movement_summary": "Both hands move up and form a triangle shape, repeated.",
+      "overall_description": "Both hands start in front of the signer, palms facing forward. The hands move up and inward to form a triangle shape with the thumbs and index fingers touching. This action is repeated."
+    },
     "video_file": "door frame.mp4"
   },
   {
     "word": "help",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: inward, open-close, repeated",
+      "finger_motion": "both: fingers pinch, repeated",
+      "movement_summary": "Both hands pinch fingers, move inward, and open/close repeatedly.",
+      "overall_description": "Both hands start in front of the body with fingers pinched. The hands move inward toward each other while opening and closing the pinched fingers repeatedly. This action is repeated twice."
+    },
     "video_file": "help.mp4"
   },
   {
     "word": "yours",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "neck",
+      "path_family": "linear",
+      "arm_motion": "right: slight-drift, forward",
+      "hand_motion": "right: static, palm inward, toward-body",
+      "finger_motion": "right: index extended, others opposed",
+      "movement_summary": "Right index finger touches neck, then moves forward, repeated.",
+      "overall_description": "The right hand, with index finger extended, touches the neck. The hand then moves forward away from the neck, and this action is repeated once."
+    },
     "video_file": "yours.mp4"
   },
   {
     "word": "weak",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static, palm forward",
+      "finger_motion": "right: index extended, others opposed",
+      "movement_summary": "Right index finger points forward, repeated.",
+      "overall_description": "The right hand, with index finger extended, points forward from the neutral position. This action is repeated twice. The other fingers are in a fist."
+    },
     "video_file": "weak.mp4"
   },
   {
     "word": "history",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "face-head",
+      "path_family": "arc-circle",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: arc, outward, repeated",
+      "finger_motion": "right: static, slight extension",
+      "movement_summary": "Right hand traces an arc near the right side of face.",
+      "overall_description": "The right hand moves in an arc shape near the right side of the face, close to the ear. This action is repeated twice."
+    },
     "video_file": "history.mp4"
   },
   {
     "word": "take",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "twist",
+      "arm_motion": "right: static",
+      "hand_motion": "right: twist, repeated",
+      "finger_motion": "right: static",
+      "movement_summary": "Right hand twists repeatedly at the wrist.",
+      "overall_description": "The right hand is held in a fist and twists at the wrist. This action is repeated twice."
+    },
     "video_file": "take.mp4"
   },
   {
     "word": "visit",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "alternating",
+      "contact_presence": "hand-hand",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "left: forward; right: forward",
+      "hand_motion": "left: palm up, straight; right: palm up, straight",
+      "finger_motion": "both: fingers extended, aperture",
+      "movement_summary": "Alternating hands move forward, palms up, fingers extended.",
+      "overall_description": "The sign is performed with both hands. The hands alternate moving forward with palms up and fingers extended."
+    },
     "video_file": "visit.mp4"
   },
   {
     "word": "language",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "face-head",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static, palm inward",
+      "finger_motion": "right: fingers extended, thumb extended",
+      "movement_summary": "Right hand moves forward from mouth, fingers extended, repeated.",
+      "overall_description": "The right hand moves forward from the mouth with fingers extended. The sign is repeated twice. It looks like the hand is moving away from the mouth."
+    },
     "video_file": "language.mp4"
   },
   {
     "word": "foot",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "downward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "right: forward, down, medium",
+      "hand_motion": "right: static, palm down, fingers point forward",
+      "finger_motion": "right: fingers extended, together",
+      "movement_summary": "Right hand moves down, touches left palm, repeated.",
+      "overall_description": "The right hand moves down and touches the palm of the left hand. This action is repeated twice. The left hand remains static during the sign."
+    },
     "video_file": "foot.mp4"
   },
   {
     "word": "call",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "chin",
+      "path_family": "linear",
+      "arm_motion": "right: slight-drift, static",
+      "hand_motion": "right: static, palm inward",
+      "finger_motion": "right: index extended, opposition",
+      "movement_summary": "Right index finger taps chin, repeated",
+      "overall_description": "The sign is performed with the right hand. The index finger taps the chin twice. The other fingers are in a fist."
+    },
     "video_file": "call.mp4"
   },
   {
     "word": "pearl",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "none",
+      "arm_motion": "right: static",
+      "hand_motion": "right: static, slight-drift",
+      "finger_motion": "right: index extended, others opposed",
+      "movement_summary": "right index finger touches chin twice",
+      "overall_description": "The right hand, with index finger extended, touches the chin twice. The other fingers are opposed to the thumb. The arm remains mostly still."
+    },
     "video_file": "pearl.mp4"
   },
   {
     "word": "count",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "twist",
+      "arm_motion": "right: static",
+      "hand_motion": "right: twist, repeated",
+      "finger_motion": "right: opposition",
+      "movement_summary": "Right hand twists at wrist, fingers in opposition, repeated.",
+      "overall_description": "The sign is performed with one hand. The right hand twists at the wrist with the fingers in opposition. This action is repeated twice."
+    },
     "video_file": "count.mp4"
   },
   {
     "word": "listen",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "none",
+      "arm_motion": "right: slight-drift, toward-body",
+      "hand_motion": "right: static, palm toward-body",
+      "finger_motion": "right: extended, slight aperture",
+      "movement_summary": "right hand moves to ear, repeated",
+      "overall_description": "The right hand moves to the right ear, palm facing forward, fingers extended. The sign is repeated once. It resembles someone cupping their ear to listen."
+    },
     "video_file": "listen.mp4"
   },
   {
     "word": "water",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "fist",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "none",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: inward, static",
+      "finger_motion": "right: thumb extended, fingers opposed",
+      "movement_summary": "Right thumb touches the right side of the mouth, repeated.",
+      "overall_description": "The right hand, with thumb extended and fingers opposed, moves forward to touch the right side of the mouth. This action is repeated once. The hand remains in the same configuration throughout."
+    },
     "video_file": "water.mp4"
   },
   {
     "word": "tree",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "upward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "neutral-front",
+      "path_family": "none",
+      "arm_motion": "right: forward, up, slight-drift",
+      "hand_motion": "right: static, palm forward",
+      "finger_motion": "right: extended, static",
+      "movement_summary": "Right hand up, fingers extended, forearm touches left arm, repeated",
+      "overall_description": "The right hand moves up with fingers extended, until the forearm touches the left arm. This action is repeated twice. The palm is facing forward."
+    },
     "video_file": "tree.mp4"
   },
   {
     "word": "closed",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-hand",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: static, palm inward, fingers up",
+      "finger_motion": "both: fingers extended, thumb opposition",
+      "movement_summary": "Both hands move forward, fingers extended, palms face inward.",
+      "overall_description": "Both hands, with fingers extended and palms facing each other, move forward from the neutral position. The fingers of both hands touch each other in the middle. This action is repeated twice."
+    },
     "video_file": "closed.mp4"
   },
   {
     "word": "body",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "chest",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: static, palm inward",
+      "finger_motion": "both: extended, together",
+      "movement_summary": "Both hands point to the chest, repeated.",
+      "overall_description": "The signer uses both hands to point towards the chest. The hands are in a fist shape with the index finger extended. This action is repeated twice."
+    },
     "video_file": "body.mp4"
   },
   {
     "word": "family",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "upward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "upward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: open-close, arc, repeated",
+      "finger_motion": "both: fingers extend, aperture",
+      "movement_summary": "Both hands open and close in front of the body.",
+      "overall_description": "Both hands start near each other in front of the body, then move apart and outward, opening the hands. The hands then return to the starting position, closing the hands. This action is repeated."
+    },
     "video_file": "family.mp4"
   },
   {
     "word": "chain",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-hand",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: inward, straight, repeated",
+      "finger_motion": "both: fingers extended, index and thumb opposition",
+      "movement_summary": "Both hands move inward, index and thumb touching, repeated.",
+      "overall_description": "The sign is performed with both hands. The hands move inward toward each other, with the index finger and thumb touching to form a triangle shape. This action is repeated twice."
+    },
     "video_file": "chain.mp4"
   },
   {
     "word": "sister",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "neck",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static",
+      "finger_motion": "right: index extended, other fingers opposed",
+      "movement_summary": "right index finger touches right shoulder, repeated.",
+      "overall_description": "The right hand, with index finger extended, touches the right shoulder. This action is repeated twice. It resembles pointing to the shoulder."
+    },
     "video_file": "sister.mp4"
   },
   {
     "word": "daily",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "upward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static, palm inward",
+      "finger_motion": "right: index extended, others opposed",
+      "movement_summary": "right index finger touches forehead, then moves to cheek, repeated",
+      "overall_description": "The sign is performed with the right hand. The index finger touches the forehead and then moves down to touch the cheek. This action is repeated."
+    },
     "video_file": "daily.mp4"
   },
   {
     "word": "blood",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "neck",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static, palm down, fingers forward",
+      "finger_motion": "right: index extended, others opposed",
+      "movement_summary": "Right index finger points forward to the neck, repeated.",
+      "overall_description": "The right hand, with index finger extended, points forward to the neck. This action is repeated twice. The sign resembles pointing to the neck area."
+    },
     "video_file": "blood.mp4"
   },
   {
     "word": "use",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "chest",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: static, palm inward",
+      "finger_motion": "both: opposition",
+      "movement_summary": "Both hands thumbs-up, move forward to chest, repeated.",
+      "overall_description": "Both hands are in a thumbs-up position. The hands move forward from a neutral position to the chest, and make contact. This action is repeated."
+    },
     "video_file": "use.mp4"
   },
   {
     "word": "account",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "fist",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: pulse, straight",
+      "finger_motion": "both: static, opposition",
+      "movement_summary": "Both hands pulse forward, fingers in opposition, repeated.",
+      "overall_description": "Both hands are held in front of the body with fingers in opposition. The hands then move forward in a pulsing motion, away from the body. This action is repeated twice."
+    },
     "video_file": "account.mp4"
   },
   {
     "word": "reference",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "neck",
+      "path_family": "linear",
+      "arm_motion": "right: upper-arm static, forearm toward-body",
+      "hand_motion": "right: hand toward-body, straight, repeated",
+      "finger_motion": "right: fingers extended, aperture static",
+      "movement_summary": "Right hand taps the right shoulder, repeated.",
+      "overall_description": "The right hand taps the right shoulder twice. The hand is open with fingers extended. The upper arm is static while the forearm moves toward the body."
+    },
     "video_file": "reference.mp4"
   },
   {
     "word": "brother",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static, palm forward, index finger extended",
+      "finger_motion": "right: index finger extended, other fingers flexed",
+      "movement_summary": "right index finger points forward, repeated",
+      "overall_description": "The right hand points forward with the index finger extended. The motion is repeated twice. It looks like the person is pointing to something to their right."
+    },
     "video_file": "brother.mp4"
   },
   {
     "word": "can",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "alternating",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "none",
+      "arm_motion": "both: static",
+      "hand_motion": "left: forward, pulse; right: forward, pulse",
+      "finger_motion": "left: index extended, opposition; right: index extended, opposition",
+      "movement_summary": "Alternating index finger pulse forward from both hands, repeated.",
+      "overall_description": "The sign is performed with both hands. The index fingers are extended and point forward, alternating in a pulsing motion."
+    },
     "video_file": "can.mp4"
   },
   {
     "word": "face",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "fist",
-        "location": "near-chin",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "none",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static, hand toward-body",
+      "finger_motion": "right: static, aperture",
+      "movement_summary": "Right hand touches mouth, then eye, repeated.",
+      "overall_description": "The right hand touches the mouth and then the area around the right eye. This action is repeated once. "
+    },
     "video_file": "face.mp4"
   },
   {
     "word": "you",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "fist",
-        "location": "near-face",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static, palm forward",
+      "finger_motion": "right: index extended, others opposed",
+      "movement_summary": "right index finger points forward, repeated",
+      "overall_description": "The right hand extends forward with only the index finger extended, as if pointing at something. This action is repeated twice. "
+    },
     "video_file": "you.mp4"
   },
   {
     "word": "pressure",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "raised-eyebrows"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "raised-eyebrows"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "raised-eyebrows"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "none",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: static, palm inward",
+      "finger_motion": "both: extended, aperture",
+      "movement_summary": "Both hands move to forehead, fingers extended, repeated.",
+      "overall_description": "Both hands move from a neutral position in front of the body to the forehead. The fingers are extended and there is an aperture between the fingers. This action is repeated."
+    },
     "video_file": "pressure.mp4"
   },
   {
     "word": "retina",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "fist",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "fist",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "none",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: toward-body, static",
+      "finger_motion": "right: extended, static",
+      "movement_summary": "Right hand moves to the right eye, then extends forward.",
+      "overall_description": "The right hand moves to touch the right eye. The hand then moves away from the face with fingers extended."
+    },
     "video_file": "retina.mp4"
   },
   {
     "word": "queen",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "face-head",
+      "path_family": "linear",
+      "arm_motion": "right: slight-drift, forward",
+      "hand_motion": "right: forward, straight, palm toward-body, then palm outward",
+      "finger_motion": "right: fingers extended, slight aperture",
+      "movement_summary": "Right hand moves from nose to forehead, repeated.",
+      "overall_description": "The sign is performed with the right hand. The hand moves from the nose to the forehead, palm facing inward then outward, and the motion is repeated."
+    },
     "video_file": "queen.mp4"
   },
   {
     "word": "check",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "index-pointed",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "face-head",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift.",
+      "hand_motion": "right: palm inward, fingers up, straight, forward, small.",
+      "finger_motion": "right: index and middle extended, others closed.",
+      "movement_summary": "Right hand, two fingers extended, moves forward from the eye.",
+      "overall_description": "The right hand with two fingers extended moves forward from the right eye. The hand moves in a straight path away from the face. This action is repeated twice.",
+      "sign_meaning": "to see"
+    },
     "video_file": "check.mp4"
   },
   {
     "word": "order",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "upward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "chest-level",
-        "movement": "downward",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "right: forward, medium",
+      "hand_motion": "right: static, palm forward",
+      "finger_motion": "right: fingers extended, together",
+      "movement_summary": "Right hand moves forward from the body, repeated.",
+      "overall_description": "The right hand moves forward from the body, palm facing forward, fingers extended and together. This action is repeated twice. "
+    },
     "video_file": "order.mp4"
   },
   {
     "word": "store",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: open-close, repeated, inward",
+      "finger_motion": "both: fingers extend, then oppose",
+      "movement_summary": "Both hands open and close repeatedly in front of body.",
+      "overall_description": "Both hands start with fingers touching, then open up with fingers spread. The hands then close again with fingers touching. This action is repeated twice."
+    },
     "video_file": "store.mp4"
   },
   {
     "word": "toys",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "smiling"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: open-close, repeated, palm up",
+      "finger_motion": "both: fingers extend, then aperture",
+      "movement_summary": "Both hands open and close repeatedly in front of body.",
+      "overall_description": "The sign is performed with both hands. The hands repeatedly open and close in front of the body, with the palms facing up. It looks like the hands are miming opening and closing a book."
+    },
     "video_file": "toys.mp4"
   },
   {
     "word": "medical",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "side-to-side",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "one",
+      "primary_hand": "right",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-body",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "right: forward, slight-drift",
+      "hand_motion": "right: static, palm up, fingers point left",
+      "finger_motion": "right: fingers extended, together",
+      "movement_summary": "right index finger touches the back of the left wrist, repeated",
+      "overall_description": "The right index finger touches the back of the left wrist twice. The right hand moves forward slightly to make contact with the left wrist."
+    },
     "video_file": "medical.mp4"
   },
   {
     "word": "massage",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "hand-hand",
+      "body_region_primary": "neutral-front",
+      "path_family": "open-close",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: open-close, repeated, toward-body",
+      "finger_motion": "both: extended, aperture",
+      "movement_summary": "Both hands open and close repeatedly in front of body",
+      "overall_description": "Both hands start with fingers interlaced. The hands then open and close repeatedly, with the fingers extending and retracting. The motion is performed twice."
+    },
     "video_file": "massage.mp4"
   },
   {
     "word": "size",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "fist",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "fist",
-        "location": "near-face",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "downward",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "alternating",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "left: inward, palm up; right: inward, palm up",
+      "finger_motion": "left: index and thumb oppose; right: index and thumb oppose",
+      "movement_summary": "Both hands move inward, index and thumb oppose, repeated.",
+      "overall_description": "The sign is performed with both hands. The hands move inward with the index finger and thumb opposing each other. This action is repeated twice."
+    },
     "video_file": "size.mp4"
   },
   {
     "word": "group",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "index-pointed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "chest-level",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "index-pointed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "fist",
-        "location": "chest-level",
-        "movement": "side-to-side",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "same-action",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "both: forward, slight-drift",
+      "hand_motion": "both: straight, forward, repeated",
+      "finger_motion": "both: static",
+      "movement_summary": "Both hands move forward from the chest, repeated.",
+      "overall_description": "Both hands, in a fist shape, move forward from the chest area. The motion is repeated twice. "
+    },
     "video_file": "group.mp4"
   },
   {
     "word": "ambulance",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "flat-hand",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "support-contact",
+      "contact_presence": "hand-hand",
+      "body_region_primary": "neutral-front",
+      "path_family": "none",
+      "arm_motion": "left: static; right: static",
+      "hand_motion": "left: static; right: static, slight-drift",
+      "finger_motion": "left: static; right: fingers closed, thumb extended",
+      "movement_summary": "Left hand palm up, right hand makes circle on palm",
+      "overall_description": "The left hand is held palm up, acting as a base. The right hand makes a small circle on the palm of the left hand, with the fingers closed and the thumb extended."
+    },
     "video_file": "ambulance.mp4"
   },
   {
     "word": "type",
-    "description": [
-      {
-        "segment": 1,
-        "start": 0.0,
-        "end": 0.1,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 2,
-        "start": 0.1,
-        "end": 0.2,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 3,
-        "start": 0.2,
-        "end": 0.3,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "side-to-side",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 4,
-        "start": 0.3,
-        "end": 0.4,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "side-to-side",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 5,
-        "start": 0.4,
-        "end": 0.5,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 6,
-        "start": 0.5,
-        "end": 0.6,
-        "hand_shape": "index-pointed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "right",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 7,
-        "start": 0.6,
-        "end": 0.7,
-        "hand_shape": "open/relaxed",
-        "location": "below-chest",
-        "movement": "stationary",
-        "dominant_hand": "both",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 8,
-        "start": 0.7,
-        "end": 0.8,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 9,
-        "start": 0.8,
-        "end": 0.9,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      },
-      {
-        "segment": 10,
-        "start": 0.9,
-        "end": 1.0,
-        "hand_shape": "open/relaxed",
-        "location": "at-sides",
-        "movement": "stationary",
-        "dominant_hand": "N/A",
-        "facial_expression": "neutral"
-      }
-    ],
+    "description": {
+      "hands_used": "both",
+      "primary_hand": "none",
+      "two_hand_relation": "alternating",
+      "contact_presence": "none",
+      "body_region_primary": "neutral-front",
+      "path_family": "linear",
+      "arm_motion": "left: forward, right: forward, repeated",
+      "hand_motion": "left: static, palm down; right: static, palm down",
+      "finger_motion": "left: index extended, others closed; right: index extended, others closed",
+      "movement_summary": "Alternating index finger pointing forward, repeated",
+      "overall_description": "The sign is performed with both hands. The index finger of each hand points forward in an alternating fashion, while the other fingers are closed into a fist."
+    },
     "video_file": "type.mp4"
   }
 ]
